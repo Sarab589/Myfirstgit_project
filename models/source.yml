@@ -1,8 +1,9 @@
 version: 2
 sources:
-  - name: call_center
+  - name: SOURCE
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCDS_SF100TCL
     tables:
       - name: CALL_CENTER
+      - name: ITEM
       
